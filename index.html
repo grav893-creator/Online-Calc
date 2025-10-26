@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online calculator</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/calculator.ico">
+</head>
+<body>
+    
+    <section class="section__nav">
+        <div class="section__nav-item">
+            <ul>
+                <a href="https://spiffy-travesseiro-766123.netlify.app/" target="_blank"><li><span class="li">Scientific calculator</span></li> </a>
+                <a href="https://stalwart-cucurucho-64c26b.netlify.app/" target="_blank"><li><span class="li">Online calculator</span></li></a>
+                <a href="https://darling-capybara-6d5b44.netlify.app/" target="_blank"><li><span class="li">Length calculator</span></li></a>
+            </ul>
+        </div>
+    </section>
+     <section class="calculator">
+        <div class="display">
+            <div class="display-flex">
+                <div class="display-flex-item">
+                    <input type="text" class="display-flex__input">
+                </div>
+            </div>
+        </div>
+        <div class="calculator__button">
+            <div class="calculator__button-item">
+                <button class="button_c-item" onclick="ClearLastToDisplay('CE')"><span class="button__span">CE</span></button>
+                <button class="button_c-item" onclick="NikitaKormilin()"><span class="button__span">Мяу</span></button>
+                <button class="button_c-item delete" onclick="ClearDisplay('DELETE')"><span class="button__span">DELETE</span></button>
+                <button class="button_c-item" onclick="addToDisplay('/')"><span class="button__span">/</span></button>
+                <button class="button_c-item" onclick="addToDisplay('7')"><span class="button__span">7</span></button>
+                <button class="button_c-item" onclick="addToDisplay('8')"><span class="button__span">8</span></button>
+                <button class="button_c-item" onclick="addToDisplay('9')"><span class="button__span">9</span></button>
+                <button class="button_c-item" onclick="addToDisplay('*')"><span class="button__span">*</span></button>
+                <button class="button_c-item" onclick="addToDisplay('4')"><span class="button__span">4</span></button>
+                <button class="button_c-item" onclick="addToDisplay('5')"><span class="button__span">5</span></button>
+                <button class="button_c-item" onclick="addToDisplay('6')"><span class="button__span">6</span></button>
+                <button class="button_c-item" onclick="addToDisplay('-')"><span class="button__span">-</span></button>
+                <button class="button_c-item" onclick="addToDisplay('1')" ><span class="button__span">1</span></button>
+                <button class="button_c-item" onclick="addToDisplay('2')"><span class="button__span">2</span></button>
+                <button class="button_c-item" onclick="addToDisplay('3')"><span class="button__span">3</span></button>
+                <button class="button_c-item" onclick="addToDisplay('+')"><span class="button__span">+</span></button>
+                <button class="button_c-item" onclick="addToDisplay('0')"><span class="button__span">0</span></button>
+                <button class="button_c-item" onclick="addToDisplay('.')"><span class="button__span">.</span></button>
+                <button class="button_c-item" onclick="ravno('=')"><span class="button__span">=</span></button>
+            </div>
+        </div>
+     </section>
+     <script src="script.js"></script>
+</body>
+</html>
